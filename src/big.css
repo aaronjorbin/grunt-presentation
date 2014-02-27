@@ -1,0 +1,53 @@
+body {
+  font-family: 'Sorts Mill Goudy', helvetica, arial, sans-serif;
+  letter-spacing:-5px;
+  background: url("img/retina_wood.png");
+  color:#900;
+  margin:0;
+  padding:0;
+  font-weight:bold;
+  background-size:contain; 
+}
+
+h1, h2, h3, p {
+  margin:0;
+}
+
+em, a {
+  font-style:normal;
+  color:#8dbd0c;
+}
+
+a {
+  text-decoration:none;
+}
+
+img {
+  width:100%;
+}
+
+.slide {
+  cursor:pointer;
+  cursor:hand;
+  position:absolute;
+  top:0px;
+  left:0px;
+  padding:75px;
+  line-height:97%;
+}
+.slide.gistouter{
+	padding: 5px 75px;
+}
+.gist{
+  line-height:110%;
+  letter-spacing:0;
+
+}
+
+div.center {
+  text-align:center;
+}
+
+div.imageText {
+  text-shadow:0px 0px 5px rgba(0,0,0,0.2);
+}
